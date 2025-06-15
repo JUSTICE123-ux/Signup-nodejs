@@ -25,7 +25,7 @@ app.post("/register", async (req, res) => {
         hashPassword
     });
     
-    res.send(`user ${firstName} registered successful`);
+    res.send(`user ${firstName} registered successfully`);
 
   } catch (error) {
     console.log("user failed to signup");
